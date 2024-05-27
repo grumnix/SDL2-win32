@@ -1,11 +1,11 @@
 {
   inputs = {
-    nixpkgs.url = "github:NixOS/nixpkgs/nixos-23.11";
+    nixpkgs.url = "github:NixOS/nixpkgs?ref=nixos-24.05";
 
     tinycmmc.url = "github:grumbel/tinycmmc";
     tinycmmc.inputs.nixpkgs.follows = "nixpkgs";
 
-    SDL2_src.url = "https://libsdl.org/release/SDL2-devel-2.0.22-mingw.tar.gz";
+    SDL2_src.url = "https://libsdl.org/release/SDL2-devel-2.30.3-mingw.tar.gz";
     SDL2_src.flake = false;
   };
 
@@ -17,7 +17,7 @@
 
           SDL2 = pkgs.stdenv.mkDerivation {
             pname = "SDL2";
-            version = "2.0.22";
+            version = "2.30.3";
 
             src = SDL2_src;
 
