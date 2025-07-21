@@ -25,7 +25,7 @@
               mkdir $out
               cp -vr ${pkgs.stdenv.targetPlatform.config}/. $out/
               substituteInPlace $out/lib/pkgconfig/sdl2.pc \
-                --replace "prefix=/opt/local/${pkgs.stdenv.targetPlatform.config}" \
+                --replace "prefix=/tmp/tardir/SDL2-2.32.8/build-mingw/install-${pkgs.stdenv.targetPlatform.config}" \
                           "prefix=$out"
             '';
           };
