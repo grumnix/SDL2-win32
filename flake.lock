@@ -3,14 +3,14 @@
     "SDL2_src": {
       "flake": false,
       "locked": {
-        "lastModified": 1714580322,
-        "narHash": "sha256-vAZh6I18Vuw2MfY5NKpv4QcHx20SUSds4mPosUgicmg=",
+        "lastModified": 1748906407,
+        "narHash": "sha256-aakdhaTL0dgt2BQEtv3w6pp1mwOrmNzEorh3lLxJgyo=",
         "type": "tarball",
-        "url": "https://libsdl.org/release/SDL2-devel-2.30.3-mingw.tar.gz"
+        "url": "https://libsdl.org/release/SDL2-devel-2.32.8-mingw.tar.gz"
       },
       "original": {
         "type": "tarball",
-        "url": "https://libsdl.org/release/SDL2-devel-2.30.3-mingw.tar.gz"
+        "url": "https://libsdl.org/release/SDL2-devel-2.32.8-mingw.tar.gz"
       }
     },
     "flake-utils": {
@@ -33,16 +33,16 @@
     },
     "nixpkgs": {
       "locked": {
-        "lastModified": 1716542732,
-        "narHash": "sha256-0Y9fRr0CUqWT4KgBITmaGwlnNIGMYuydu2L8iLTfHU4=",
+        "lastModified": 1752866191,
+        "narHash": "sha256-NV4S2Lf2hYmZQ3Qf4t/YyyBaJNuxLPyjzvDma0zPp/M=",
         "owner": "NixOS",
         "repo": "nixpkgs",
-        "rev": "d12251ef6e8e6a46e05689eeccd595bdbd3c9e60",
+        "rev": "f01fe91b0108a7aff99c99f2e9abbc45db0adc2a",
         "type": "github"
       },
       "original": {
         "owner": "NixOS",
-        "ref": "nixos-24.05",
+        "ref": "nixos-25.05",
         "repo": "nixpkgs",
         "type": "github"
       }
